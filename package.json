@@ -1,0 +1,16 @@
+{
+  "name": "exercism",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "test:watch": "bun test --watch",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/bun": "latest",
+    "eslint": "^9.1.1",
+    "typescript": "^5.0.0"
+  }
+}
